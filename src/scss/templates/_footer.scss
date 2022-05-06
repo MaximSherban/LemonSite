@@ -1,0 +1,39 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+.footer_wrapper{
+    margin-top: 86px;
+    display: flex;
+    justify-content: center;
+    & .footer_container{
+        width:1120px;
+        height: 190px;
+        box-shadow: 0px 0px 17px -3px rgba(0,0,0,0.69);
+        background-color:$foot_c;
+        & .foot_cont_2{
+            width: inherit;
+            height: inherit;
+            display: flex;
+            align-items: center;
+            & .foot_logo{
+                margin-left: 85px;
+                margin-right: 108px;
+            }
+            & .foot_links{
+                & .foot_link{
+                    color:$foot_colt;
+                    margin-left:15px; 
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size:12px;
+                }
+            }
+            & .reserved{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size:12px;
+                color:$foot_colt;
+                margin-left:130px; 
+            }
+        }
+    }
+}
